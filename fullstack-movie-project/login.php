@@ -31,7 +31,6 @@ if (!empty($username)) {
         $login_status = 1;
     }
 
-
 }
 header( "Location: loginform.php?ls=$login_status");
 $conn->close();
